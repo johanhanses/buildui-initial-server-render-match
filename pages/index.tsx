@@ -2,7 +2,7 @@ import { useState } from "react";
 import * as Icons from "@heroicons/react/24/solid";
 
 export default function Page() {
-  let [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false);
 
   return (
     <div className="flex min-h-full">
